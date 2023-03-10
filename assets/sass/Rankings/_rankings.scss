@@ -145,6 +145,10 @@
   @media only screen and (max-width: 46.1875em) {
     padding: 40px 0;
 
+    &-frame-item p {
+      font-size: 12px;
+    }
+
     &-desc {
       margin-bottom: 40px;
     }

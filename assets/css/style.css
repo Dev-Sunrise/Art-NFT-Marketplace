@@ -769,7 +769,7 @@ h6 {
 
 .highlight {
   padding: 360px 0 60px;
-  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%), url("/assets/images/Photo 6.png") center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%), url("./assets/images/Photo 6.png") center/cover no-repeat;
   /* Mobile: width < 740px */
 }
 .highlight-main {
@@ -1193,7 +1193,7 @@ h6 {
 .artist-bg {
   width: 100%;
   height: 382px;
-  background: linear-gradient(180deg, rgba(151, 71, 255, 0) 21.88%, #9747ff 95.31%), url("/assets/images/Photo 4.png") center bottom/cover no-repeat;
+  background: linear-gradient(180deg, rgba(151, 71, 255, 0) 21.88%, #9747ff 95.31%), url("./assets/images/Photo 4.png") center bottom/cover no-repeat;
 }
 .artist-avatar {
   width: 120px;
@@ -1807,6 +1807,9 @@ h6 {
 @media only screen and (max-width: 46.1875em) {
   .rankings {
     padding: 40px 0;
+  }
+  .rankings-frame-item p {
+    font-size: 12px;
   }
   .rankings-desc {
     margin-bottom: 40px;
